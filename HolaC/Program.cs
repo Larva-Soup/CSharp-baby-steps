@@ -19,7 +19,7 @@ namespace HolaC
             //characterAge = 25; se puede sobreescribir el valor
 
             //C# es hardtyped
-            //string variable = "esto es un string"
+            //string variable = "esto es un string" + "se pueden concatenar de esta forma"
             //char caracter = 'ñ' //esto guarda solo un caracter, utilizar '' y no ""
             //int numberInt = 15 // esto es un número entero
             //números decimales de menos precisos a más
@@ -35,7 +35,22 @@ namespace HolaC
             //Console.WriteLine("He really liked the name " + characterName);
             //Console.WriteLine("But didn't like being " + characterAge);
 
-            Console.WriteLine("Placeholder");
+            string phrase = "PlaceholderOne placeholderTwo";
+
+            Console.WriteLine(phrase.Length); //número de caracteres
+            Console.WriteLine("PlaceholderOne".Length);
+            Console.WriteLine(phrase.ToUpper());
+            Console.WriteLine(phrase.Contains("One")); //case sensitive
+            Console.WriteLine(phrase[2]); //so strings are objects, ok
+            Console.WriteLine(phrase.IndexOf("Place"));  //case sensitive, devuelve el index del
+                                                         //primer resultado o -1 si no hay match
+                                                         //para caracteres usar ''  
+            Console.WriteLine(phrase.Substring(15,11)); //el primer parametro es el index, el segundo
+                                                        //es el largo del string devuelto (no puede ser
+                                                        //más alto que el número de caracteres restantes
+                                                        //e.g. (15, 20) porque placeholderTwo
+                                                        //no tiene 20 caracteres)
+            Console.WriteLine(phrase.Substring(phrase.Length - 3)); //-1 no sirve como startIndex
 
             Console.ReadLine();
         }
