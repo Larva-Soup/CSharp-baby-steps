@@ -13,8 +13,8 @@ namespace HolaC
             //Console.WriteLine("   /| \n  / |\n /  |\n/___|");
             //Console.WriteLine("Let's triangulate this");
 
-            string characterName = "John";
-            int characterAge = 35;
+            //string characterName = "John";
+            //int characterAge = 35;
 
             //characterAge = 25; se puede sobreescribir el valor
 
@@ -30,10 +30,12 @@ namespace HolaC
             //booleano
             //bool buleanooo = true; || false;
 
-            Console.WriteLine("There once was a man named " + characterName);
-            Console.WriteLine("He was " + characterAge + " years old");
-            Console.WriteLine("He really liked the name " + characterName);
-            Console.WriteLine("But didn't like being " + characterAge);
+            //Console.WriteLine("There once was a man named " + characterName);
+            //Console.WriteLine("He was " + characterAge + " years old");
+            //Console.WriteLine("He really liked the name " + characterName);
+            //Console.WriteLine("But didn't like being " + characterAge);
+
+            Console.WriteLine("Placeholder");
 
             Console.ReadLine();
         }
