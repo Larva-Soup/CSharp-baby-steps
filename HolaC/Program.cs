@@ -35,22 +35,45 @@ namespace HolaC
             //Console.WriteLine("He really liked the name " + characterName);
             //Console.WriteLine("But didn't like being " + characterAge);
 
-            string phrase = "PlaceholderOne placeholderTwo";
+            //string phrase = "PlaceholderOne placeholderTwo";
 
-            Console.WriteLine(phrase.Length); //número de caracteres
-            Console.WriteLine("PlaceholderOne".Length);
-            Console.WriteLine(phrase.ToUpper());
-            Console.WriteLine(phrase.Contains("One")); //case sensitive
-            Console.WriteLine(phrase[2]); //so strings are objects, ok
-            Console.WriteLine(phrase.IndexOf("Place"));  //case sensitive, devuelve el index del
-                                                         //primer resultado o -1 si no hay match
-                                                         //para caracteres usar ''  
-            Console.WriteLine(phrase.Substring(15,11)); //el primer parametro es el index, el segundo
-                                                        //es el largo del string devuelto (no puede ser
-                                                        //más alto que el número de caracteres restantes
-                                                        //e.g. (15, 20) porque placeholderTwo
-                                                        //no tiene 20 caracteres)
-            Console.WriteLine(phrase.Substring(phrase.Length - 3)); //-1 no sirve como startIndex
+            //Console.WriteLine(phrase.Length); //número de caracteres
+            //Console.WriteLine("PlaceholderOne".Length);
+            //Console.WriteLine(phrase.ToUpper());
+            //Console.WriteLine(phrase.Contains("One")); //case sensitive
+            //Console.WriteLine(phrase[2]); //so strings are objects, ok
+            //Console.WriteLine(phrase.IndexOf("Place"));  //case sensitive, devuelve el index del
+            //                                             //primer resultado o -1 si no hay match
+            //                                             //para caracteres usar ''  
+            //Console.WriteLine(phrase.Substring(15,11)); //el primer parametro es el index, el segundo
+            //                                            //es el largo del string devuelto (no puede ser
+            //                                            //más alto que el número de caracteres restantes
+            //                                            //e.g. (15, 20) porque placeholderTwo
+            //                                            //no tiene 20 caracteres)
+            //Console.WriteLine(phrase.Substring(phrase.Length - 3)); //-1 no sirve como startIndex
+
+            //Console.WriteLine(5 / 2); //esto va a dar 2 porque toda operación entre ints va a devolver
+            //                          //otro int, para evitar este comportamiento se debe cambiar alguno
+            //                          //de los dos o ambos números a decimal
+            //Console.WriteLine(5 / 2.0);
+
+            //int num = 1;
+            //num++;  //num ahora es 2
+            //Console.WriteLine(num++);  //esto devuelve 2 y no tres porque primero imprime
+            //                           //num y luego le suma 1
+            //Console.WriteLine(--num);   //2
+
+            //Console.WriteLine(Math.Abs(-5));    //valor absoluto
+
+            //Console.WriteLine(Math.Pow(3,3));   //3^3 = 27, también funciona con decimales
+
+            //Console.WriteLine(Math.Sqrt(9));    //raíz cuadrada = 3
+
+            //Console.WriteLine(Math.Max(19,1));   //devuelve el mayor
+
+            //Console.WriteLine(Math.Min(19,1));  //devuelve el menor
+
+            //Console.WriteLine(Math.Round(9.5)); //redondea
 
             Console.ReadLine();
         }
