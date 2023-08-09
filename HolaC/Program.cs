@@ -75,6 +75,44 @@ namespace HolaC
 
             //Console.WriteLine(Math.Round(9.5)); //redondea
 
+            //input
+
+            //WriteLine salta a la siguiente linea, Write se queda en la misma linea
+
+            //Console.Write("Enter your name: ");
+            //string name = Console.ReadLine();   //ReadLine guarda el input como string
+            //Console.WriteLine("Hello " + name);
+
+            //calculadora que solo suma y solo funciona con enteros
+
+            //volver string a número
+            //int num = Convert.ToInt32("45");
+
+            //Console.Write("Enter a number: ");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter another number: ");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(num1 + num2);
+
+            //para decimales
+            //double num1 = Convert.ToDouble(Console.ReadLine());
+
+            //madlib
+
+            //string color, noun, celebrity;
+
+            //Console.Write("Enter a color: ");
+            //color = Console.ReadLine();
+            //Console.Write("Enter a plural noun: ");
+            //noun = Console.ReadLine();
+            //Console.Write("Enter a celebrity name: ");
+            //celebrity = Console.ReadLine();
+
+            //Console.WriteLine("\nRoses are " + color);
+            //Console.WriteLine(noun + " are blue");
+            //Console.WriteLine("I love " + celebrity);
+
+
             Console.ReadLine();
         }
     }
