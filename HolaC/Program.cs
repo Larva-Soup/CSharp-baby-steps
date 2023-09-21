@@ -113,8 +113,123 @@ namespace HolaC
             //Console.WriteLine("I love " + celebrity);
 
 
+            //Arrays
 
-            Console.ReadLine();
+            //int[] luckyNumbers = { 4, 8, 15, 16, 23, 42};   //4, 8, etc son elementos
+            //string[] friends = new string[5];
+
+            //friends[0] = "Jim";
+            //friends[1] = "Kelly";
+
+            ////luckyNumbers[1] = 900;
+
+            //Console.WriteLine(luckyNumbers[1]); //imprime el elemento correspondiente en la consola
+
+
+            //Metodos
+            //Metodos son funciones (como en JS)
+            //Nos vamos a salir de Main
+
+            //invoke === call
+            //SayHi("Mike", 33);
+            //SayHi("John", 50);
+
+            //Console.WriteLine(cube(5));  //125
+
+
+            //if statements
+
+            //bool isMale = false;
+            //bool isTall = false;
+
+            ////and &&, or ||, not !
+
+            //if (isMale && isTall)       //los operadores lógicos parecen usar los mismos caracteres que en JS
+            //{
+            //    Console.WriteLine("You are a tall male");
+            //} else if (isMale && !isTall)
+            //{
+            //    Console.WriteLine("You are a short king");
+            //} else if (!isMale && isTall)
+            //{
+            //    Console.WriteLine("You are not a male but you are tall");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You are not male and not tall");
+            //}
+
+            //Console.WriteLine(GetMax(20, 10, 40));
+
+
+            //Better calculator
+
+            //Console.Write("Enter a number: ");
+            //double num1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter Operator: ");
+            //string op = Console.ReadLine();
+
+            //Console.Write("Enter another number: ");
+            //double num2 = Convert.ToDouble(Console.ReadLine());
+
+
+            //if (op == "+")
+            //{
+            //    Console.Write(num1 + num2);
+            //} else if (op == "-")
+            //{
+            //    Console.Write(num1 - num2);
+            //} else if(op == "/") 
+            //{
+            //    Console.Write(num1 / num2);
+            //} else if(op == "*")
+            //{
+            //    Console.Write(num1 * num2);
+            //} else
+            //{
+            //    Console.Write("Invalid Operator");
+            //}
+
+
+            //Switch statement
+
+            Console.ReadLine(); //este línea solo está aquí para que no se cierre la consola al ejecutar
+            
         }
+        //static se va a tocar más adelante, void hace referencia a lo que va a devolver el método, en este caso no va
+        //a devolver nada, ergo void
+        //static void SayHi(string name, int age) 
+        //{
+        //    Console.WriteLine("Hello " + name + " you are " + age);
+        //}
+
+        //Return statement
+
+        //static int cube(int num)
+        //{
+        //    int result = num * num * num;
+        //    return result;
+        //}
+
+        //Comparaciones
+        //static int GetMax(int num1, int num2, int num3)
+        //{
+        //    int result;
+
+        //    if (num1 >= num2 && num1 >= num3)
+        //    {
+        //        result = num1;
+        //    }else if (num2 >= num1 && num2 >= num3)
+        //    {
+        //        result = num2;
+        //    }else
+        //    {
+        //        result = num3;
+        //    }
+
+
+        //    return result;
+        //}
     }
 }
