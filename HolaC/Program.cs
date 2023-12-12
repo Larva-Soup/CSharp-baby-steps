@@ -193,6 +193,7 @@ namespace HolaC
 
 
             //Switch statement
+            Console.WriteLine(GetDay(80));
 
             Console.ReadLine(); //este línea solo está aquí para que no se cierre la consola al ejecutar
             
@@ -231,5 +232,40 @@ namespace HolaC
 
         //    return result;
         //}
+
+        //día de la semana
+        static string GetDay(int dayNum) {
+            string dayName;
+
+            switch (dayNum)//dentro del parentesis va el valor que va se a comparar con los case
+            {
+                case 0:
+                    dayName = "Sunday";
+                    break;
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+                default:
+                    dayName = "Invalid Day Number";
+                    break;
+            }
+
+            return dayName;
+        }
     }
 }
